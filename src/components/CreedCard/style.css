@@ -1,0 +1,51 @@
+.creed-card {
+  height: 100%;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.creed-card .creed-side {
+  width: 40%;
+  position: relative;
+  height: 40vh;
+  align-self: center;
+}
+.creed-card .creed-side .vertical-stick {
+  width: 2px;
+  background-color: red;
+  height: 100%;
+  position: absolute;
+  right: 20%;
+}
+.creed-card .creed-side .circle {
+  width: 15vh;
+  height: 15vh;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  right: calc(20% - 14vh / 2);
+  top: calc((100% - 14vh) / 2);
+  text-align: center;
+  line-height: 1000%;
+}
+.creed-card .creed-side .circle img {
+  position: absolute;
+  top: 26%;
+  height: 50%;
+  left: 25%;
+}
+
+.creed-card .creed-text {
+  width: 50%;
+  align-self: center;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 100;
+  line-height: 1em;
+  text-transform: uppercase;
+  flex-grow: 0;
+}
+.creed-card .keyword {
+  font-weight: 400;
+}
