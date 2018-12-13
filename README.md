@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/157240/49968766-8ff64180-ff05-11e8-8bb8-63781a86c3ef.png)
+# Creed of the day
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
